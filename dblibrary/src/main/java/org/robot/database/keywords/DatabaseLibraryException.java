@@ -6,16 +6,20 @@ package org.robot.database.keywords;
  * errors indicating that executing a keyword failed due to database content
  * and arguments in comparison to additional (SQL)Exceptions that will indicate
  * potential problems in the implementation as such.
- * 
+ *
  * @author thomasjaspers
  *
  */
 public class DatabaseLibraryException extends Exception {
-	
+
 
 	private static final long serialVersionUID = 1L;
 
 	public DatabaseLibraryException(String msg) {
 	    super(msg);
-	  }
+	}
+
+	public DatabaseLibraryException(String msg, Throwable cause) {
+	    super(msg, cause);
+	}
 }
