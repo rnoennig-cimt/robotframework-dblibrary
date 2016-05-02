@@ -26,20 +26,6 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.teradata.jdbc</groupId>
-		    <artifactId>terajdbc4</artifactId>
-		    <version>15.00.00.20</version>
-			<type>jar</type>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.teradata.tdgss</groupId>
-		    <artifactId>tdgssconfig</artifactId>
-		    <version>14.10.00.01</version>
-			<type>jar</type>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.python</groupId>
 			<artifactId>jython</artifactId>
 			<version>2.5.3</version>
@@ -55,11 +41,6 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>2.1</version>
 				</plugin>
-				<!-- plugin>
-					<artifactId>maven-surefire-plugin</artifactId>
-					<groupId>org.apache.maven.plugins</groupId>
-					<version>2.4.3</version>
-				</plugin-->
 			</plugins>
 		</pluginManagement>
 
